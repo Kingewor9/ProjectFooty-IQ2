@@ -39,7 +39,7 @@ except Exception as e:
     print(f"Error connecting to MongoDB: {e}")
     exit(1)
 
-# --- Utility Functions ---
+# --- Utility Functions ----
 
 def generate_unique_code(collection):
     """Generates a unique 6-digit alphanumeric code for private leagues."""
